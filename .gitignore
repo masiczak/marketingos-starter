@@ -1,0 +1,31 @@
+# --- Never commit these ---
+# Private folder: 1:1s, personal notes, your own priorities
+private/*
+!private/README.md
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*token*.json
+*service-account*.json
+
+# Raw data exports (may contain customer or personal data)
+data/
+exports/
+*.csv
+!scripts/sample-data/*.csv
+
+# Setup progress (personal working notes)
+SETUP-PROGRESS.md
+
+# Runtime and OS clutter
+logs/
+*.log
+.DS_Store
+__pycache__/
+.venv/
+node_modules/

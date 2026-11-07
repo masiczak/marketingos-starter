@@ -1,0 +1,8 @@
+# Who reviews changes to the core files. Replace the placeholders with GitHub usernames or teams.
+# See marketingos-setup, Step 6 (on some plans this only notifies, it doesn't block).
+
+CLAUDE.md                                   @{{owner-of-the-os}}
+/shared/                                    @{{owner-of-the-os}}
+/departments/abm-outbound/skills/           @{{abm-owner}}
+/departments/performance/skills/            @{{performance-owner}}
+/departments/content-architect/skills/      @{{content-owner}}
